@@ -51,8 +51,8 @@ class cow:
 
     def moo(self, x):
         self.size = x * 2
-        print('mooooooo')
-        print('mooooooooooooo', str(self.size))
+        print('mooooooooooooo!!!', str(self.size))
+        print('annoy the neighbors')
         self.tummy = 'empty'
 
     def walk(self):

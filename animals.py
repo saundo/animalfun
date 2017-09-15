@@ -62,6 +62,10 @@ class cow:
     def eat(self, food):
         self.tummy = 'full'
 
+    def slaughter(self, meat):
+        self.meat = meat
+        print('hamburger')
+
 
 class dog:
     """it's a dog

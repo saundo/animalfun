@@ -34,7 +34,15 @@ class duck:
         print(str(self.size))
         self.status = 'dead :('
 
-
+class chicken:
+    """it's a chcken
+    """
+    animal = 'bird'
+    def __init__(self, name):
+        self.name = name
+                              
+        
+        
 def kill(o):
     """to kill an animal - it's able to kill the following classes:
     + duck

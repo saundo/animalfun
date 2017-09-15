@@ -63,6 +63,15 @@ class dog:
         self.name = name
         self.bark = 'loud'
 
+class cat:
+    """it's a cat
+    """
+    animal = 'feline'
+    def __init__(self, name):
+        self.name = name
+        self.bark = None
+
+
 
 
 

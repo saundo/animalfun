@@ -64,6 +64,17 @@ class dog:
         self.bark = 'loud'
         self.react = 'weak'
 
+class cat:
+    """it's a cat
+    """
+    animal = 'feline'
+    def __init__(self, name):
+        self.name = name
+        self.bark = None
+
+    def meow(self, volume):
+        self.volume = volume
+        print('nice meow')
 
 
 

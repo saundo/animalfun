@@ -62,8 +62,7 @@ class dog:
     def __init__(self, name):
         self.name = name
         self.bark = 'loud'
-        self.react = 'strong'
-
+        self.react = 'weak'
 
 class cat:
     """it's a cat

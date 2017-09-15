@@ -55,6 +55,10 @@ class cow:
         print('mooooooooooooo', str(self.size))
         self.tummy = 'empty'
 
+    def walk(self):
+        print('it walks')
+
+
 class dog:
     """it's a dog
     """

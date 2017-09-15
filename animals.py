@@ -32,7 +32,7 @@ class duck:
             return
         print('RIP mofo')
         print(str(self.size))
-        self.status = 'dead !!!!!!!!!!!!!!!!!!'
+        self.status = 'dead :('
 
 
 def kill(o):

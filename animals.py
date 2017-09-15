@@ -21,7 +21,7 @@ class duck:
             print('thats not food!')
 
     def crap(self, x):
-        self.size = x * 10
+        self.size = x * 2
         print('all good now')
         print('this big', str(self.size))
         self.tummy = 'empty'

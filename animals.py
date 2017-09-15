@@ -11,7 +11,6 @@ class duck:
         self.name = name
         self.status = 'Alive!'
         self.tummy = 'empty'
-        pass
 
     def eat(self, food):
         if isinstance(food, str):

@@ -59,6 +59,10 @@ class cow:
     def run(self, speed):
         print('runs this fast', speed)
 
+    def eat(self, food):
+        self.tummy = 'full'
+
+
 class dog:
     """it's a dog
     """

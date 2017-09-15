@@ -46,6 +46,12 @@ class cow:
     animal = 'bovine'
     def __init__(self, name):
         self.name = name
+        
+    def moo(self, x):
+        self.size = x * 2
+        print('mooooooo')
+        print('mooooooooooooo', str(self.size))
+        self.tummy = 'empty'
 
 
 def kill(o):

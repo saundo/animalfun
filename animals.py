@@ -54,6 +54,10 @@ class cow:
         print('mooooooo')
         print('mooooooooooooo', str(self.size))
         self.tummy = 'empty'
+        self.stink = True
+
+    def run(self, speed):
+        print('runs this fast', speed)
 
 class dog:
     """it's a dog

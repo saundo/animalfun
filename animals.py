@@ -51,13 +51,9 @@ class cow:
 
     def moo(self, x):
         self.size = x * 2
-        print('mooooooooooooo!!!', str(self.size))
-        print('annoy the neighbors')
+        print('mooooooo')
+        print('mooooooooooooo', str(self.size))
         self.tummy = 'empty'
-
-    def walk(self):
-        print('it walks')
-
 
 class dog:
     """it's a dog

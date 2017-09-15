@@ -40,6 +40,7 @@ class chicken:
     animal = 'bird'
     def __init__(self, name):
         self.name = name
+        self.fly = False
 
 class cow:
     """it's a cow

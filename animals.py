@@ -48,12 +48,23 @@ class cow:
     animal = 'bovine'
     def __init__(self, name):
         self.name = name
-        
+
     def moo(self, x):
         self.size = x * 2
         print('mooooooo')
         print('mooooooooooooo', str(self.size))
         self.tummy = 'empty'
+
+class dog:
+    """it's a dog
+    """
+    animal = 'canine'
+    def __init__(self, name):
+        self.name = name
+        self.bark = 'loud'
+
+
+
 
 
 def kill(o):
